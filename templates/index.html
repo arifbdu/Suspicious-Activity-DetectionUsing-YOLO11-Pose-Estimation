@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ProctorAI – Smart Exam Monitoring</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+    body {
+        background: #0d0d0d;
+        color: #e8e8e8;
+        font-family: "Segoe UI", sans-serif;
+    }
+    .container-box {
+        max-width: 650px;
+        margin: 80px auto;
+        background: rgba(255, 255, 255, 0.05);
+        padding: 40px;
+        border-radius: 18px;
+        backdrop-filter: blur(10px);
+        box-shadow: 0 0 25px rgba(0, 128, 255, 0.25);
+        text-align: center;
+    }
+
+    .title {
+        font-size: 2.3rem;
+        margin-bottom: 15px;
+        font-weight: 600;
+        letter-spacing: 1px;
+    }
+
+    .subtitle {
+        color: #aaa;
+        margin-bottom: 25px;
+    }
+
+    .upload-area {
+        padding: 30px;
+        border: 2px dashed #0d6efd;
+        border-radius: 14px;
+        transition: 0.3s;
+    }
+    .upload-area:hover {
+        border-color: #5da8ff;
+        background: rgba(13, 110, 253, 0.1);
+    }
+
+    input[type="file"] {
+        margin-top: 20px;
+        padding: 20px;
+        background: #111;
+        border-radius: 10px;
+        color: #fff;
+    }
+
+    .btn-start {
+        margin-top: 25px;
+        width: 100%;
+        padding: 14px;
+        background: linear-gradient(90deg, #007bff, #00a8ff);
+        color: white;
+        font-size: 1.2rem;
+        border-radius: 12px;
+        transition: 0.3s;
+        font-weight: bold;
+        letter-spacing: 1px;
+    }
+
+    .btn-start:hover {
+        background: linear-gradient(90deg, #0056d2, #008dd1);
+        transform: scale(1.02);
+    }
+
+    .footer {
+        text-align: center;
+        margin-top: 50px;
+        color: #777;
+        font-size: 0.9rem;
+    }
+</style>
+</head>
+<body>
+
+<div class="container-box">
+    <div class="title">ProctorAI</div>
+    <div class="subtitle">Smart Real-Time Exam Behavior Detection</div>
+
+    <form method="POST" enctype="multipart/form-data">
+        <div class="upload-area">
+            <h5>Select your exam video</h5>
+            <input type="file" name="video" accept="video/*" class="form-control" required>
+        </div>
+        <button type="submit" class="btn-start">Upload & Start Monitoring</button>
+    </form>
+</div>
+
+<div class="footer">
+    &copy; 2025 ProctorAI – Smart AI Invigilation System
+</div>
+
+</body>
+</html>
