@@ -1,0 +1,13 @@
+{
+    "Dataset_Path": "F:\\1. RESEARCH\\Ashiq Sir\\class - 2\\dataset_path\\dataset_pathdataset.csv",
+    "Total_Samples": 3414,
+    "Normal_Samples": 2170,
+    "Suspicious_Samples": 1244,
+    "Total_Pose_Features": 34,
+    "Class_Mapping": {
+        "Normal": 0,
+        "Suspicious": 1
+    },
+    "Split_Method": "80/20 stratified frame-level split with random_state=42",
+    "Cross_Validation": "Five-fold stratified cross-validation on the training partition"
+}

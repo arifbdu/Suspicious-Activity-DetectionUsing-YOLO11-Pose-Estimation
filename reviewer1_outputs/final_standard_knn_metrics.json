@@ -1,0 +1,20 @@
+{
+    "Model": "Standard KNN",
+    "Best_k": 1,
+    "Selected_Number_of_Features": 30,
+    "Test_Accuracy": 0.9956076134699854,
+    "Test_Precision": 0.992,
+    "Test_Recall": 0.9959839357429718,
+    "Test_F1": 0.9939879759519038,
+    "Test_AUC": 0.9956878204060481,
+    "Confusion_Matrix": {
+        "True_Normal": 432,
+        "False_Suspicious": 2,
+        "False_Normal": 1,
+        "True_Suspicious": 248
+    },
+    "Class_Mapping": {
+        "Normal": 0,
+        "Suspicious": 1
+    }
+}
