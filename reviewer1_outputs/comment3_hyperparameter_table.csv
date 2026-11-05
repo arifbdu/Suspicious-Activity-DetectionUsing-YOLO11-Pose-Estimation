@@ -1,9 +1,0 @@
-Model,Hyperparameters
-Standard KNN,n_neighbors=1; weights=uniform; metric=Euclidean distance; selected_features=30
-Distance-weighted KNN,n_neighbors=3; weights=distance; metric=Euclidean distance; selected_features=30
-Average-distance KNN,n_neighbors=3; prediction=minimize average class-specific Euclidean distance; selected_features=30
-Random Forest,n_estimators=200; random_state=42; selected_features=30
-Logistic Regression,max_iter=500; standard scaling; random_state=42; selected_features=30
-SVM with RBF kernel,kernel=rbf; C=1.0; gamma=scale; probability=True; selected_features=30
-MLP,"hidden_layer_sizes=(64, 32); activation=relu; solver=adam; max_iter=2000; random_state=42; selected_features=30"
-XGBoost,n_estimators=50; learning_rate=0.1; max_depth=3; objective=binary:logistic; tree_method=hist; random_state=42; selected_features=30
